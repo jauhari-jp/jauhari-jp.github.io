@@ -29,6 +29,15 @@
     width: 100%;
     height: auto;
   }
+  
+  .quote-image {
+    margin-top:40px;
+    padding-left:0px;
+    width: 350px;
+    height: 240px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
 }
 
 /* smartphone */
@@ -67,5 +76,23 @@
   .hero-img-bg {
     width: 90%;
     height: auto;
+  }
+  
+  .quote {
+    flex-direction: column-reverse;
+  }
+  
+  .blockquote h4{
+    font-size: 12px;
+  }
+  .blockquote h6{
+    font-size: 8px;
+    margin-left:150px;
+  }
+  .quote-image {
+  width: 350px;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
   }
 }
