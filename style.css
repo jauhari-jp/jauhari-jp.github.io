@@ -320,3 +320,85 @@ nav li {
 .blockquote h6:first-letter {
   margin-left: -12px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+
+
+.about {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+.section-title h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+#image {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.section-title p {
+    font-size: 1rem
+}
+figcaption {
+    font-size: 1rem;
+}
+.section-title span {
+    font-weight: bold;
+    color: crimson;
+}
+
+.section-title {
+    text-align: center;
+    color: #181927;
+    margin-bottom: 4rem;
+}
+.section1-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 5rem;
+    margin-left: 5rem;
+    border-left: 2px solid crimson;
+}
+.section1-content {
+    display: flex;
+    padding: 1rem;
+    
+}
+.section1-article span {
+    font-weight: bold;
+    color: crimson;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    width: 35%;
+    background-color: #F7F2F1;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    transform: rotate(-2deg) scale(0.9);
+    transition: 300ms ease;
+}
+
+figure:hover {
+    transform: rotate(0deg) scale(1);
+}
+
+.clear{
+    clear: left;
+  }
+
