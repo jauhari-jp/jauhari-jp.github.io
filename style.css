@@ -326,7 +326,7 @@ nav li {
 
 
 .about {
-    max-width: 1120px;
+    max-width: 1170px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -372,7 +372,6 @@ figcaption {
 .section1-content {
     display: flex;
     padding: 1rem;
-    width: 100%;
     
 }
 .section1-article span {
